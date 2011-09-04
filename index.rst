@@ -72,30 +72,30 @@ We could use this for example to create custom, semantic markup for *TypoScript*
 Graphviz + UML support
 ----------------------
 
-There is an additional "Schmankerl" which I just discovered a few days ago for my diploma thesis: There exists an extension for Graphviz and for PlantUML, so the following code actually creates graphs and UML diagrams::
+There is an additional "Schmankerl" which I just discovered a few days ago for my diploma thesis: There exists an extension for Graphviz and for PlantUML, so the following code actually creates graphs and UML diagrams:
 
-	.. graphviz::
+.. graphviz::
 
-		digraph d {
-			a -> b
-			b -> c
-			a -> c
-		}
+	digraph d {
+		a -> b
+		b -> c
+		a -> c
+	}
 
-	.. uml::
+.. uml::
 
-		class AbstractSomething {
-		}
+	class AbstractSomething {
+	}
 
-		class Foo {
-			String bar
-			baz()
-		}
-		class Greeter {
-		}
+	class Foo {
+		String bar
+		baz()
+	}
+	class Greeter {
+	}
 
-		Foo --|> AbstractSomething
-		Foo --> Greeter
+	AbstractSomething <|-- Foo
+	Foo --> Greeter
 
 That, I think, makes a lot easier to illustrate certain concepts with a well-written diagram; and we can also define a common look-and-feel for diagrams.
 
