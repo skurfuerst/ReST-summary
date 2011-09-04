@@ -146,7 +146,7 @@ Now, to build this document, you can use::
 	make html
 	make latexpdf # if you have LaTeX installed
 
-For PlantUML and Graphviz support, I needed to adjust the generated config a little; you can see the changes I did there in TODO add link.
+For PlantUML and Graphviz support, I needed to adjust the generated config a little; you can see the changes I did there in https://github.com/skurfuerst/ReST-summary/commit/db4d0d7e8ba989efab4a18d08ed4a19758be13f9#diff-0
 
 Closing Notes
 =============
